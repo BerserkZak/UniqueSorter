@@ -1,0 +1,15 @@
+name: UniqueSpawner
+version: '${project.version}'
+main: org.spigotmc.spigotapi.UniqueSpawn
+authors: [ Author ]
+description: Description
+website: Website
+
+commands:
+  uniquespawn:
+    description: Spawning unique mobs.
+    aliases:
+      - us
+      - uspawn
+      - uniques
+    usage: /us [mobname] [type]
